@@ -1,0 +1,366 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*@media screen and (max-width:600px){  
+    html{
+        background-color: green;
+        color: block;
+    }
+    @media screen and (max-width:600px){
+        html div{
+           
+            color: white;
+        }
+
+}*/
+
+
+nav {
+    background-color: white;
+}
+
+input {
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+
+
+
+}
+
+.searchbar {
+    display: inline;
+    padding: 300px;
+
+
+}
+
+.bookmark img {
+    height: 23px;
+    width: 23px;
+
+}
+
+.commentbox img {
+    height: 23px;
+    width: 23px;
+
+
+}
+
+.mypic img {
+    height: 25px;
+    width: 30px;
+    border-radius: 50%;
+
+
+}
+
+.bookmark,
+.commentbox,
+.mypic {
+    display: inline;
+}
+
+.container {
+    display: inline;
+
+
+}
+
+/*@media (max-width: 768px) {
+    header {
+        flex-direction: row;
+        
+    }
+
+    .container {
+        margin-top: 10px;
+    }
+
+    .container,.bookmark,.commentbox,.mypic {
+        flex-direction: row;
+    }
+
+    container .container,.bookmark,.commentbox,.mypic img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }/*
+}
+/* losy */
+ .com,
+.noti {
+    position: absolute;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+
+}
+
+.bookmark {
+    padding: 10 px;
+}
+
+.commentbox {
+    padding: 10px;
+}
+
+.mypic {
+    padding: 10px;
+}
+
+/* nav icon home */
+.home-icon img {
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+    padding-right: 2px;
+
+}
+
+.flight-icon img {
+    height: 30px;
+    width: 23px;
+
+
+}
+
+.flight-icon {
+    padding-top: 20px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+.align {
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 600px;
+    margin-top: 20px;
+
+
+}
+
+.home-icon:hover {
+    cursor: pointer;
+    color: red;
+
+}
+
+.flight-icon:hover {
+    cursor: pointer;
+    color: red;
+
+}
+
+.key-icon:hover {
+    cursor: pointer;
+    color: red;
+
+}
+
+.tours-icon:hover {
+    cursor: pointer;
+    color: red;
+
+}
+
+.key-icon img {
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+
+.key-icon {
+    padding-top: 20px;
+}
+
+.tours-icon img {
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+
+.tours-icon {
+    padding-top: 20px;
+}
+
+.hp {
+    margin-top: 300px;
+}
+
+/* img */
+.hotel-img {
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    display: inline-block;
+
+
+}
+
+.hotel-img img {
+    height: 200px;
+    width: 350px;
+}
+
+.res-img {
+    position: absolute;
+    top: 60px;
+    left: 550px;
+    display: inline-block;
+
+}
+
+.res-img img {
+    height: 200px;
+    width: 350px;
+}
+
+.card-img img {
+    height: 200px;
+    width: 350px;
+}
+
+.card-img {
+    position: absolute;
+    top: 60px;
+    left: 950px;
+    display: inline-block;
+
+}
+
+.four {
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-grow: 2;
+    flex-basis: 20%;
+}
+
+/* images */
+.vr46 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    padding-left: 10px;
+
+}
+
+
+
+.vr46 img {
+    height: 100px;
+    width: 150px;
+    padding-left: 10px;
+
+}
+
+.thalappa img {
+    height: 10px;
+    width: 10px;
+}
+
+.thalappa {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 290px;
+    left: 1080px;
+
+}
+
+button {
+    border: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.vote {
+    display: inline-block;
+    background-color: red;
+    position: absolute;
+    top: 270px;
+    left: 1250px;
+    color: aliceblue;
+
+}
+
+.para {
+    position: absolute;
+    top: 370px;
+    left: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+    background-color: cadetblue;
+
+
+
+
+}
+
+.taste {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: first baseline;
+    padding-left: 150px;
+
+
+}
+
+.yuvi img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+
+}
+
+.lk {
+    padding-left: 20px;
+    padding-top: 6px;
+
+}
+
+.lion{
+    padding-left: 40px;
+    padding-top: 6px;
+    color: red;
+}
+
+.yuvi {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+
+}
+
+.karupu {
+    width: 300px;
+    padding: 20px;
+    background-color: cadetblue;
+    position: absolute;
+    top: 370px;
+    left: 800px;
+}
+.mango{
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    top: 550px;
+    left: 900px;
+    
+}
+
+   
+
+
+
